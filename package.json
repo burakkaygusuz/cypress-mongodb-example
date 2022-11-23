@@ -1,0 +1,26 @@
+{
+  "name": "cypress-mongodb-example",
+  "version": "1.0.0",
+  "description": "Testing mongodb with cypress",
+  "scripts": {
+    "cy:open": "cypress open --e2e",
+    "pretty": "prettier --write \"./**/*.{yml,js,jsx,json}\"",
+    "test": "cypress run --e2e"
+  },
+  "keywords": [
+    "cypress",
+    "mongodb"
+  ],
+  "author": "Burak Kaygusuz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.2.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.28.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "mongodb": "^4.12.0"
+  }
+}
