@@ -14,7 +14,7 @@
   "author": "Burak Kaygusuz",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.7.0",
+    "cypress": "^12.8.0",
     "dotenv": "^16.0.3",
     "eslint": "^8.36.0",
     "eslint-plugin-cypress": "^2.12.1",
