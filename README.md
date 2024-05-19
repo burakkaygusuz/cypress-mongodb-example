@@ -36,5 +36,5 @@ docker-compose -f docker-compose.yml up
 - Run the test.
 
 ```shell
-yarn install && yarn run test
+npm install && npm run test
 ```

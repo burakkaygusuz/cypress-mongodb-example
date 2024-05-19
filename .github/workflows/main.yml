@@ -16,13 +16,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'yarn'
+          check-latest: true
+          cache: 'npm'
 
       - name: Start MongoDb
         run: docker-compose -f "docker-compose.yml" up -d --build
 
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
 
       - name: Execute the Tests
-        run: yarn test
+        run: npm run test
