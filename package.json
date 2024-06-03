@@ -17,7 +17,7 @@
     "cypress": "^13.9.0",
     "eslint": "^9.3.0",
     "eslint-plugin-cypress": "^3.2.0",
-    "prettier": "3.2.5"
+    "prettier": "3.3.0"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
